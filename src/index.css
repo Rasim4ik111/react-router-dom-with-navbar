@@ -149,3 +149,27 @@ form textarea {
 form label span {
   margin-bottom: 10px;
 }
+
+/* careers list */
+.careers > a {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background: rgba(58, 58, 105, 0.5);
+  padding: 25px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.careers > a:hover p {
+  color: var(--primary);
+}
+.careers p {
+  margin: 0;
+}
+.careers > a p:last-child {
+  font-size: 0.8em;
+  color: #bbb;
+}
+

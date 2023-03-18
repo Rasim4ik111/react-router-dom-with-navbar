@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
-function RootsLayout() {
+function RootLayout() {
   return (
     <div className="root-layout">
       <header>
@@ -11,9 +11,11 @@ function RootsLayout() {
             <NavLink to="/">HOME </NavLink>
             <NavLink to="about"> ABOUT</NavLink>
             <NavLink to="help">HELP</NavLink>
+            <NavLink to="careers">CAREERS</NavLink>
           </div>
         </nav>
       </header>
+
       <main>
         <Outlet />
       </main>
@@ -21,4 +23,4 @@ function RootsLayout() {
   );
 }
 
-export default RootsLayout;
+export default RootLayout;
